@@ -5,10 +5,11 @@ export default class PlanetCard extends Component {
   render() {
     const { planetName, planetImage } = this.props;
     const planetText = `Planeta ${planetName}`;
+    const classe = `imageSize ${planetName}`;
     return (
-      <div data-testid="planet-card">
-        <p data-testid="planet-name">{planetName}</p>
-        <img src={ planetImage } alt={ planetText } />
+      <div className="boxSize" data-testid="planet-card">
+        <img className={ classe } src={ planetImage } alt={ planetText } />
+        <p className="App" data-testid="planet-name">{planetName}</p>
       </div>
     );
   }

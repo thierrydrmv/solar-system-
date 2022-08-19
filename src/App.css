@@ -1,3 +1,112 @@
 .App {
   text-align: center;
 }
+
+.board {
+  border: 1px gray solid;
+  border-radius: 10px;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.solarSystem {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  width: auto;
+}
+
+.imageSize {
+  width: 200px;
+}
+
+.boxSize {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.boxSize:hover .imageSize.Mercúrio {
+  width: 10px;
+}
+
+.boxSize:hover .imageSize.Vênus {
+  width: 25px;
+}
+
+.boxSize:hover .imageSize.Terra {
+  width: 27px;
+}
+
+.boxSize:hover .imageSize.Marte {
+  width: 14px;
+}
+
+.boxSize:hover .imageSize.Júpiter {
+  width: 300px;
+}
+
+.boxSize:hover .imageSize.Saturno {
+  width: 250px;
+}
+
+.boxSize:hover .imageSize.Urano {
+  width: 107px;
+}
+
+.boxSize:hover .imageSize.Netuno {
+  width: 103px;
+}
+
+.missionCard {
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+.cardSize {
+  display: flex;
+  filter: blur(1px);
+  flex-direction: column;
+  height: 160px;
+  margin: 30px;
+  width: 160px;
+}
+
+.cardSize:hover {
+  filter: blur();
+}
+
+.missionName {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.missions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+body {
+  background-image: url('/src/images/background.png');
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+}

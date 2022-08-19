@@ -5,7 +5,7 @@ export default class Title extends Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>{headline}</h2>
+      <h2 className="board App title">{headline}</h2>
     );
   }
 }
