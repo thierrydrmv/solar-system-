@@ -25,12 +25,6 @@ In this project, I was able to:
   npm install
   ``` 
 
-## 🧪 Running the tests
-
-  ```
-  npm test
-  ```
-
 ## 💬 Contact
 
 <div>
